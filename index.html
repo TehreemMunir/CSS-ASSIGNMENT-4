@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>CSS ASSIGNMENT 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 4</title>
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url("IMAGES/Glittery Pink");
+            padding: 0;
+            background-image: url('IMAGES/GlitteryPink.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
             background-repeat: no-repeat;
-            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
-        .container {
+        .PARENT {
+            background-color: white;
+            width: 80%;
+            max-width: 600px;
+            height: 400px;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow-y: scroll;
             text-align: center;
-            padding: 50px;
         }
 
-        .card {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-            margin: 20px auto;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
         }
 
-        .card h2 {
-            margin-top: 0;
-        }
-
-        .pattern-box {
-            width: 200px;
-            height: 200px;
-            margin: 20px auto;
-            background-image: url(/IMAGES/pattern.png);
-            background-repeat: repeat;
-            background-size: 50px 50px;
-            box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.7);
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <div class="card">
-            <h2>Background Cover</h2>
-            <p>This card uses a semi-transparent background and a box-shadow.</p>
-        </div>
 
-        <div class="pattern-box"></div>
+    <div class="PARENT">
+        <h1>CSS Background & Layout Assignment</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio dignissimos facere 
+            possimus nostrum dolorum, maiores assumenda non doloremque incidunt, corrupti iusto quia 
+            vitae ex minus doloribus iste illum quas eum, quae animi dolorem voluptatum! Consequatur 
+            soluta porro tempora sapiente fuga vero quis animi beatae possimus molestiae! Labore eligendi 
+            quia voluptatibus illo eius ea amet quisquam delectus? Deserunt quasi est maxime eaque, 
+            corporis odio temporibus voluptatibus dolorum fugit fuga facilis numquam illo aliquam 
+            voluptatem ab minus non adipisci hic rem repellendus veniam et ullam aliquid? Ducimus error 
+            cumque laudantium tenetur odit? Molestias, distinctio ullam ab natus ex architecto dolore 
+            earum libero, quaerat nostrum quo fugit laborum similique excepturi illo error aliquid esse 
+            voluptatum amet numquam praesentium nulla obcaecati! Impedit quis itaque sed dolorem quasi 
+            nesciunt nobis, recusandae eaque mollitia, exercitationem accusantium nulla officiis! Quibusdam 
+            eligendi voluptatem excepturi culpa cumque minima voluptates esse atque magni animi cum 
+            alias ex amet, ipsum quae aliquam quo eius dicta rerum rem molestias quis nam repudiandae 
+            eveniet! Non asperiores aperiam dolore tempora dicta placeat excepturi natus quia in fugit.
+        </p>
     </div>
-</body>
 
+</body>
 </html>
